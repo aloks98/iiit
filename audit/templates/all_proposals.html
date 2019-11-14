@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if proposal_list %}
+    <ul>
+    {% for p in proposal_list %}
+        <li><a href="{% url 'prop_detail' p.proposal_no %}">{{ p.proposal_no}}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+</body>
+</html>
