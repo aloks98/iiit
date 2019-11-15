@@ -18,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -111,7 +111,7 @@
       <workItem from="1573723739349" duration="454000" />
       <workItem from="1573724194655" duration="1158000" />
       <workItem from="1573748089603" duration="1493000" />
-      <workItem from="1573751543370" duration="10277000" />
+      <workItem from="1573751543370" duration="20259000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1573723615327</created>
